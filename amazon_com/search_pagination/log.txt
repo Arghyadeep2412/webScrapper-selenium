@@ -1,0 +1,196 @@
+running the main function
+first need to get the data from the given input xlsx file
+path to look at for input file is -- D:/personal-work/selenium-python/input.xlsx
+checking if the file exists or not at given location
+pathHasFile True
+got the workbook -- now need to get the sheet which contains inputs
+getting the first active sheet
+got the worksheet!! <class 'openpyxl.worksheet.worksheet.Worksheet'>
+need to extract the keywords
+colsCount 1
+rowsCount 5
+got a total of 4 keywords from the file given
+gotInputsSuccessfully True
+now need to initiate the driver
+driverLoaded True
+homePageUrl https://www.carrefour.fr/
+waiting for this xpath -> //*[contains(@id,"data-quick-access-bar")]
+got the element for this xpath!!
+homePageLoadedSuccess True
+need to check and close all these btns -> //*[contains(@id,"privacy_button")][contains(.,"Accepter")] | //*[contains(@class,"modal__close")][contains(@type,"button")]
+waiting for this xpath -> //*[contains(@id,"privacy_button")][contains(.,"Accepter")]
+got the element for this xpath!!
+btnsPresent True
+need to click on the given xpaths -> //*[contains(@id,"privacy_button")][contains(.,"Accepter")]
+got the element to click
+clicked on the button
+waiting for this xpath -> //*[contains(@class,"modal__close")][contains(@type,"button")]
+got the element for this xpath!!
+btnsPresent True
+need to click on the given xpaths -> //*[contains(@class,"modal__close")][contains(@type,"button")]
+got the element to click
+clicked on the button
+need to check if the search bar is present //*[contains(@id,"search-bar-input")]
+waiting for this xpath -> //*[contains(@id,"search-bar-input")]
+got the element for this xpath!!
+searchBarLoaded True
+clear the search bar first
+need to click on clearSearchBarBtnXpath //*[contains(@id,"search-bar-input")]//following-sibling::*[contains(@id,"button-clean")]
+got a total of 1 elements for this xpath - //*[contains(@id,"search-bar-input")]//following-sibling::*[contains(@id,"button-clean")]
+need to click on the given xpaths -> //*[contains(@id,"search-bar-input")]//following-sibling::*[contains(@id,"button-clean")]
+got some error while clicking on the xpaths, Message: 
+
+cleared the search bar
+now need to enter the keyword in the search bar field
+need to enter the text - "Dyson Fans" in the inputField for xpath -> //*[contains(@id,"search-bar-input")]
+keywordsEntered True
+keywordsEnteredSuccess True
+need to wait for the page to load
+waiting for this xpath -> //div[contains(@class,"product-list")]//ul[contains(@class,"product-grid")]
+got the element for this xpath!!
+pageHasResults True
+we need to scroll now
+lastHeight 0
+newHeight 755
+scrolling!!
+waiting for 5 secs
+autoScrollSuccess True
+need to get the data from this page
+we might have a load more button on this page
+rowXpath (//div[contains(@class,"product-list")]//ul[contains(@class,"product-grid")])[last()]//li//a[contains(@class,"product-card-title")]//ancestor::*[contains(@class,"product-grid-item")]
+we got some count of elements --> 11
+got a total of 0 elements for this xpath - //*[contains(@class,"pagination__button")]//button[contains(.,"Produits suivants")]
+waiting for this xpath -> //*[contains(@class,"pagination__button")]//button[contains(.,"Produits suivants")]
+got some error while waiting for the xpath -> Message: 
+
+got a total of 0 elements for this xpath - //*[contains(@class,"pagination__button")]//button[contains(.,"Produits suivants")]
+dataCountLoaded 11
+maxResults 100
+loadMoreBtnPresent False
+loaded a total of 11 products for this keyword -->"Dyson Fans"
+we have got the results
+need to check if the search bar is present //*[contains(@id,"search-bar-input")]
+waiting for this xpath -> //*[contains(@id,"search-bar-input")]
+got the element for this xpath!!
+searchBarLoaded True
+clear the search bar first
+need to click on clearSearchBarBtnXpath //*[contains(@id,"search-bar-input")]//following-sibling::*[contains(@id,"button-clean")]
+got a total of 1 elements for this xpath - //*[contains(@id,"search-bar-input")]//following-sibling::*[contains(@id,"button-clean")]
+need to click on the given xpaths -> //*[contains(@id,"search-bar-input")]//following-sibling::*[contains(@id,"button-clean")]
+got the element to click
+clicked on the button
+cleared the search bar
+now need to enter the keyword in the search bar field
+need to enter the text - "Dyson Vaccumm Cleaners" in the inputField for xpath -> //*[contains(@id,"search-bar-input")]
+keywordsEntered True
+keywordsEnteredSuccess True
+need to wait for the page to load
+waiting for this xpath -> //div[contains(@class,"product-list")]//ul[contains(@class,"product-grid")]
+got the element for this xpath!!
+pageHasResults True
+we need to scroll now
+lastHeight 0
+newHeight 755
+scrolling!!
+waiting for 5 secs
+autoScrollSuccess True
+need to get the data from this page
+we might have a load more button on this page
+rowXpath (//div[contains(@class,"product-list")]//ul[contains(@class,"product-grid")])[last()]//li//a[contains(@class,"product-card-title")]//ancestor::*[contains(@class,"product-grid-item")]
+we got some count of elements --> 11
+got a total of 0 elements for this xpath - //*[contains(@class,"pagination__button")]//button[contains(.,"Produits suivants")]
+waiting for this xpath -> //*[contains(@class,"pagination__button")]//button[contains(.,"Produits suivants")]
+got some error while waiting for the xpath -> Message: 
+
+got a total of 0 elements for this xpath - //*[contains(@class,"pagination__button")]//button[contains(.,"Produits suivants")]
+dataCountLoaded 11
+maxResults 100
+loadMoreBtnPresent False
+loaded a total of 11 products for this keyword -->"Dyson Vaccumm Cleaners"
+we have got the results
+need to check if the search bar is present //*[contains(@id,"search-bar-input")]
+waiting for this xpath -> //*[contains(@id,"search-bar-input")]
+got the element for this xpath!!
+searchBarLoaded True
+clear the search bar first
+need to click on clearSearchBarBtnXpath //*[contains(@id,"search-bar-input")]//following-sibling::*[contains(@id,"button-clean")]
+got a total of 1 elements for this xpath - //*[contains(@id,"search-bar-input")]//following-sibling::*[contains(@id,"button-clean")]
+need to click on the given xpaths -> //*[contains(@id,"search-bar-input")]//following-sibling::*[contains(@id,"button-clean")]
+got the element to click
+clicked on the button
+cleared the search bar
+now need to enter the keyword in the search bar field
+need to enter the text - "pOWNEF" in the inputField for xpath -> //*[contains(@id,"search-bar-input")]
+keywordsEntered True
+keywordsEnteredSuccess True
+need to wait for the page to load
+waiting for this xpath -> //div[contains(@class,"product-list")]//ul[contains(@class,"product-grid")]
+got the element for this xpath!!
+pageHasResults True
+we need to scroll now
+lastHeight 0
+newHeight 755
+scrolling!!
+waiting for 5 secs
+autoScrollSuccess True
+need to get the data from this page
+we might have a load more button on this page
+rowXpath (//div[contains(@class,"product-list")]//ul[contains(@class,"product-grid")])[last()]//li//a[contains(@class,"product-card-title")]//ancestor::*[contains(@class,"product-grid-item")]
+we got some count of elements --> 60
+got a total of 1 elements for this xpath - //*[contains(@class,"pagination__button")]//button[contains(.,"Produits suivants")]
+load more btn is present - need to click it
+need to click on the given xpaths -> //*[contains(@class,"pagination__button")]//button[contains(.,"Produits suivants")]
+got the element to click
+clicked on the button
+autoScrollSuccess True
+we got some count of elements --> 120
+dataCountLoaded 120
+got a total of 1 elements for this xpath - //*[contains(@class,"pagination__button")]//button[contains(.,"Produits suivants")]
+dataCountLoaded 120
+maxResults 100
+loadMoreBtnPresent True
+loaded a total of 120 products for this keyword -->"pOWNEF"
+we have got the results
+need to check if the search bar is present //*[contains(@id,"search-bar-input")]
+waiting for this xpath -> //*[contains(@id,"search-bar-input")]
+got the element for this xpath!!
+searchBarLoaded True
+clear the search bar first
+need to click on clearSearchBarBtnXpath //*[contains(@id,"search-bar-input")]//following-sibling::*[contains(@id,"button-clean")]
+got a total of 1 elements for this xpath - //*[contains(@id,"search-bar-input")]//following-sibling::*[contains(@id,"button-clean")]
+need to click on the given xpaths -> //*[contains(@id,"search-bar-input")]//following-sibling::*[contains(@id,"button-clean")]
+got the element to click
+clicked on the button
+cleared the search bar
+now need to enter the keyword in the search bar field
+need to enter the text - "laptop" in the inputField for xpath -> //*[contains(@id,"search-bar-input")]
+keywordsEntered True
+keywordsEnteredSuccess True
+need to wait for the page to load
+waiting for this xpath -> //div[contains(@class,"product-list")]//ul[contains(@class,"product-grid")]
+got the element for this xpath!!
+pageHasResults True
+we need to scroll now
+lastHeight 0
+newHeight 755
+scrolling!!
+waiting for 5 secs
+autoScrollSuccess True
+need to get the data from this page
+we might have a load more button on this page
+rowXpath (//div[contains(@class,"product-list")]//ul[contains(@class,"product-grid")])[last()]//li//a[contains(@class,"product-card-title")]//ancestor::*[contains(@class,"product-grid-item")]
+we got some count of elements --> 1
+got a total of 0 elements for this xpath - //*[contains(@class,"pagination__button")]//button[contains(.,"Produits suivants")]
+waiting for this xpath -> //*[contains(@class,"pagination__button")]//button[contains(.,"Produits suivants")]
+got some error while waiting for the xpath -> Message: 
+
+got a total of 0 elements for this xpath - //*[contains(@class,"pagination__button")]//button[contains(.,"Produits suivants")]
+dataCountLoaded 1
+maxResults 100
+loadMoreBtnPresent False
+loaded a total of 1 products for this keyword -->"laptop"
+we have got the results
+[{'rank': 1, '_input': 'Dyson Fans', 'prodLink': 'https://www.carrefour.fr/p/bonbons-fan-of-pik-haribo-3103220044797', 'name': 'Bonbons fan of pik HARIBO', 'id': '3103220044797'}, {'rank': 2, '_input': 'Dyson Fans', 'prodLink': 'https://www.carrefour.fr/p/aspirateur-v10-absolute-dyson-5025155034095', 'name': 'Aspirateur V10 Absolute DYSON', 'id': '5025155034095'}, {'rank': 3, '_input': 'Dyson Fans', 'prodLink': 'https://www.carrefour.fr/p/aspirateur-v10-motorhead-dyson-5025155034811', 'name': 'Aspirateur V10 Motorhead DYSON', 'id': '5025155034811'}, {'rank': 4, '_input': 'Dyson Fans', 'prodLink': 'https://www.carrefour.fr/p/aspirateur-balai-v11-torque-drive-extra-dyson-5025155046593', 'name': 'Aspirateur balai V11 Torque Drive Extra DYSON', 'id': '5025155046593'}, {'rank': 5, '_input': 'Dyson Fans', 'prodLink': 'https://www.carrefour.fr/p/aspirateur-balai-v8-parquet-279340-01-gris-dyson-5025155040782', 'name': 'Aspirateur balai V8 Parquet - 279340-01 - Gris DYSON', 'id': '5025155040782'}, {'rank': 6, '_input': 'Dyson Fans', 'prodLink': 'https://www.carrefour.fr/p/aspirateur-balai-v11-absolute-extra-pro-gris-violet-dyson-5025155046821', 'name': 'Aspirateur balai V11 absolute extra pro gris/violet DYSON', 'id': '5025155046821'}, {'rank': 7, '_input': 'Dyson Fans', 'prodLink': 'https://www.carrefour.fr/p/kit-d-accessoires-pour-aspirateur-dyson-v7-v8-sv10-sv11-968334-01-5025155031926', 'name': "DYSON Kit d'accessoires pour aspirateur Dyson V7, V8, SV10, SV11 - 968334-01", 'id': '5025155031926'}, {'rank': 8, '_input': 'Dyson Fans', 'prodLink': 'https://www.carrefour.fr/p/aspirateur-v7-motorhead-origin-5025155028155', 'name': 'DYSON Aspirateur V7 Motorhead Origin', 'id': '5025155028155'}, {'rank': 9, '_input': 'Dyson Fans', 'prodLink': 'https://www.carrefour.fr/p/aspirateur-balai-v8-slim-354482-01-gris-rouge-5025155049259', 'name': 'Aspirateur balai V8 Slim - 354482-01 - Gris/Rouge', 'id': '5025155049259'}, {'rank': 10, '_input': 'Dyson Fans', 'prodLink': 'https://www.carrefour.fr/p/aspirateur-balai-v11-absolute-extra-298884-01-gris-5025155046470', 'name': 'Aspirateur balai V11 absolute extra - 298884-01 - Gris', 'id': '5025155046470'}, {'rank': 11, '_input': 'Dyson Fans', 'prodLink': 'https://www.carrefour.fr/p/box-fan-acdc-8-bieres-56-8cl-8-gobelets-20-serviettes-pot-crayon-3760065142257?s=2017', 'name': 'Box Fan Acdc 8 Bieres 56,8cl + 8 Gobelets + 20 Serviettes +pot Crayon PLANÈTE DRINKS', 'id': '3760065142257'}, {'rank': 1, '_input': 'Dyson Vaccumm Cleaners', 'prodLink': 'https://www.carrefour.fr/p/nettoyant-chaussures-sneaker-cleaner-kiwi-5000204053838', 'name': 'Nettoyant chaussures sneaker cleaner KIWI', 'id': '5000204053838'}, {'rank': 2, '_input': 'Dyson Vaccumm Cleaners', 'prodLink': 'https://www.carrefour.fr/p/aspirateur-v10-absolute-dyson-5025155034095', 'name': 'Aspirateur V10 Absolute DYSON', 'id': '5025155034095'}, {'rank': 3, '_input': 'Dyson Vaccumm Cleaners', 'prodLink': 'https://www.carrefour.fr/p/aspirateur-v10-motorhead-dyson-5025155034811', 'name': 'Aspirateur V10 Motorhead DYSON', 'id': '5025155034811'}, {'rank': 4, '_input': 'Dyson Vaccumm Cleaners', 'prodLink': 'https://www.carrefour.fr/p/aspirateur-balai-v11-torque-drive-extra-dyson-5025155046593', 'name': 'Aspirateur balai V11 Torque Drive Extra DYSON', 'id': '5025155046593'}, {'rank': 5, '_input': 'Dyson Vaccumm Cleaners', 'prodLink': 'https://www.carrefour.fr/p/aspirateur-balai-v8-parquet-279340-01-gris-dyson-5025155040782', 'name': 'Aspirateur balai V8 Parquet - 279340-01 - Gris DYSON', 'id': '5025155040782'}, {'rank': 6, '_input': 'Dyson Vaccumm Cleaners', 'prodLink': 'https://www.carrefour.fr/p/aspirateur-balai-v11-absolute-extra-pro-gris-violet-dyson-5025155046821', 'name': 'Aspirateur balai V11 absolute extra pro gris/violet DYSON', 'id': '5025155046821'}, {'rank': 7, '_input': 'Dyson Vaccumm Cleaners', 'prodLink': 'https://www.carrefour.fr/p/nettoyant-turbo-diesel-egr-cleaner-wynn-s-5411693315633', 'name': "Nettoyant turbo diesel EGR cleaner WYNN'S", 'id': '5411693315633'}, {'rank': 8, '_input': 'Dyson Vaccumm Cleaners', 'prodLink': 'https://www.carrefour.fr/p/kit-d-accessoires-pour-aspirateur-dyson-v7-v8-sv10-sv11-968334-01-5025155031926', 'name': "DYSON Kit d'accessoires pour aspirateur Dyson V7, V8, SV10, SV11 - 968334-01", 'id': '5025155031926'}, {'rank': 9, '_input': 'Dyson Vaccumm Cleaners', 'prodLink': 'https://www.carrefour.fr/p/aspirateur-v7-motorhead-origin-5025155028155', 'name': 'DYSON Aspirateur V7 Motorhead Origin', 'id': '5025155028155'}, {'rank': 10, '_input': 'Dyson Vaccumm Cleaners', 'prodLink': 'https://www.carrefour.fr/p/aspirateur-balai-v8-slim-354482-01-gris-rouge-5025155049259', 'name': 'Aspirateur balai V8 Slim - 354482-01 - Gris/Rouge', 'id': '5025155049259'}, {'rank': 11, '_input': 'Dyson Vaccumm Cleaners', 'prodLink': 'https://www.carrefour.fr/p/aspirateur-balai-v11-absolute-extra-298884-01-gris-5025155046470', 'name': 'Aspirateur balai V11 absolute extra - 298884-01 - Gris', 'id': '5025155046470'}, {'rank': 1, '_input': 'pOWNEF', 'prodLink': 'https://www.carrefour.fr/p/seau-essoreuse-ultra-max-power-vileda-4023103201415', 'name': 'Seau essoreuse ultra max power VILEDA', 'id': '4023103201415'}, {'rank': 2, '_input': 'pOWNEF', 'prodLink': 'https://www.carrefour.fr/p/jouet-beats-morphers-sabre-electronique-50-cm-power-rangers-5010993599233', 'name': 'Jouet Beats Morphers Sabre électronique 50 cm POWER RANGERS', 'id': '5010993599233'}, {'rank': 3, '_input': 'pOWNEF', 'prodLink': 'https://www.carrefour.fr/p/jouet-poney-etoiles-filantes-16-cm-301550-3286413015504', 'name': 'Jouet poney etoiles filantes -16 cm - 301550', 'id': '3286413015504'}, {'rank': 4, '_input': 'pOWNEF', 'prodLink': 'https://www.carrefour.fr/p/glue-power-liquide-control-uhu-4026700367102', 'name': 'Glue power liquide control UHU', 'id': '4026700367102'}, {'rank': 5, '_input': 'pOWNEF', 'prodLink': 'https://www.carrefour.fr/p/pile-alcaline-6lr61-9v-plus-power-duracell-5000394105485', 'name': 'Pile Alcaline 6LR61 9V Plus Power DURACELL', 'id': '5000394105485'}, {'rank': 6, '_input': 'pOWNEF', 'prodLink': 'https://www.carrefour.fr/p/piles-rechargeables-hr3-aaa-700mah-power-plus-energizer-7638900416992', 'name': 'Piles rechargeables HR3/AAA 700mAh Power Plus ENERGIZER', 'id': '7638900416992'}, {'rank': 7, '_input': 'pOWNEF', 'prodLink': 'https://www.carrefour.fr/p/pile-alcaline-6lr61-9v-ultra-power-duracell-5000394105416', 'name': 'Pile Alcaline 6LR61 9V Ultra Power DURACELL', 'id': '5000394105416'}, {'rank': 8, '_input': 'pOWNEF', 'prodLink': 'https://www.carrefour.fr/p/piles-alcalines-6lr61-9v-plus-power-duracell-5000394105522', 'name': 'Piles Alcalines 6LR61 9V Plus Power DURACELL', 'id': '5000394105522'}, {'rank': 9, '_input': 'pOWNEF', 'prodLink': 'https://www.carrefour.fr/p/piles-alcalines-6lr61-9v-ultra-power-duracell-5000394105430', 'name': 'Piles Alcalines 6LR61 9V Ultra Power DURACELL', 'id': '5000394105430'}, {'rank': 10, '_input': 'pOWNEF', 'prodLink': 'https://www.carrefour.fr/p/glue-power-gel-ultra-rapide-uhu-4026700367300', 'name': 'Glue power gel ultra rapide UHU', 'id': '4026700367300'}, {'rank': 11, '_input': 'pOWNEF', 'prodLink': 'https://www.carrefour.fr/p/piles-alcalines-lr6-aa-1-5v-power-energizer-7638900246599', 'name': 'Piles Alcalines LR6/AA 1,5V Power ENERGIZER', 'id': '7638900246599'}, {'rank': 12, '_input': 'pOWNEF', 'prodLink': 'https://www.carrefour.fr/p/glue-power-gel-ultra-rapide-uhu-4026700367256', 'name': 'Glue power gel ultra rapide UHU', 'id': '4026700367256'}, {'rank': 13, '_input': 'pOWNEF', 'prodLink': 'https://www.carrefour.fr/p/glue-power-liquide-doseur-precis-uhu-4026700392500', 'name': 'Glue power liquide doseur précis UHU', 'id': '4026700392500'}, {'rank': 14, '_input': 'pOWNEF', 'prodLink': 'https://www.carrefour.fr/p/piles-alcalines-lr6-aa-1-5v-plus-power-duracell-5000394017641', 'name': 'Piles Alcalines LR6/AA 1,5V Plus Power DURACELL', 'id': '5000394017641'}, {'rank': 15, '_input': 'pOWNEF', 'prodLink': 'https://www.carrefour.fr/p/piles-alcalines-lr3-aaa-1-5v-plus-power-duracell-5000394018457', 'name': 'Piles Alcalines LR3/AAA 1,5V Plus Power DURACELL', 'id': '5000394018457'}, {'rank': 16, '_input': 'pOWNEF', 'prodLink': 'https://www.carrefour.fr/p/piles-alcalines-lr14-c-1-5v-plus-power-duracell-5000394019089', 'name': 'Piles Alcalines LR14/C 1,5V Plus Power DURACELL', 'id': '5000394019089'}, {'rank': 17, '_input': 'pOWNEF', 'prodLink': 'https://www.carrefour.fr/p/piles-rechargeables-hr14-c-1-2v-2500mah-power-plus-energizer-7638900138740', 'name': 'Piles rechargeables HR14/C 1,2V 2500mAh Power Plus ENERGIZER', 'id': '7638900138740'}, {'rank': 18, '_input': 'pOWNEF', 'prodLink': 'https://www.carrefour.fr/p/piles-lithium-cr123-3v-high-power-duracell-5000394020320', 'name': 'Piles Lithium CR123 3V High Power DURACELL', 'id': '5000394020320'}, {'rank': 19, '_input': 'pOWNEF', 'prodLink': 'https://www.carrefour.fr/p/piles-alcalines-lr3-aaa-1-5v-ultra-power-duracell-5000394018549', 'name': 'Piles Alcalines LR3/AAA 1,5V Ultra Power DURACELL', 'id': '5000394018549'}, {'rank': 20, '_input': 'pOWNEF', 'prodLink': 'https://www.carrefour.fr/p/pile-rechargeable-hr22-9v-175mah-power-plus-energizer-7638900138771', 'name': 'Pile rechargeable HR22 9V 175mAh Power Plus ENERGIZER', 'id': '7638900138771'}, {'rank': 21, '_input': 'pOWNEF', 'prodLink': 'https://www.carrefour.fr/p/piles-alcalines-lr6-aa-1-5v-plus-power-duracell-5000394017764', 'name': 'Piles Alcalines LR6/AA 1,5V Plus Power DURACELL', 'id': '5000394017764'}, {'rank': 22, '_input': 'pOWNEF', 'prodLink': 'https://www.carrefour.fr/p/piles-alcalines-lr20-d-1-5v-plus-power-duracell-5000394019171', 'name': 'Piles Alcalines LR20/D 1,5V Plus Power DURACELL', 'id': '5000394019171'}, {'rank': 23, '_input': 'pOWNEF', 'prodLink': 'https://www.carrefour.fr/p/piles-alcalines-lr6-aa-1-5v-plus-power-duracell-5000394017825', 'name': 'Piles Alcalines LR6/AA 1,5V Plus Power DURACELL', 'id': '5000394017825'}, {'rank': 24, '_input': 'pOWNEF', 'prodLink': 'https://www.carrefour.fr/p/glue-power-gel-liquide-control-ultra-rapide-uhu-4026700367157', 'name': 'Glue power gel liquide control ultra rapide UHU', 'id': '4026700367157'}, {'rank': 25, '_input': 'pOWNEF', 'prodLink': 'https://www.carrefour.fr/p/piles-alcalines-lr3-aaa-1-5v-plus-power-duracell-5000394012431', 'name': 'Piles Alcalines LR3/AAA 1,5V Plus Power DURACELL', 'id': '5000394012431'}, {'rank': 26, '_input': 'pOWNEF', 'prodLink': 'https://www.carrefour.fr/p/piles-alcalines-lr14-c-1-5v-ultra-power-duracell-5000394002852', 'name': 'Piles Alcalines LR14/C 1,5V Ultra Power DURACELL', 'id': '5000394002852'}, {'rank': 27, '_input': 'pOWNEF', 'prodLink': 'https://www.carrefour.fr/p/piles-alcalines-lr3-aaa-1-5v-plus-power-duracell-5000394018570', 'name': 'Piles Alcalines LR3/AAA 1,5V Plus Power DURACELL', 'id': '5000394018570'}, {'rank': 28, '_input': 'pOWNEF', 'prodLink': 'https://www.carrefour.fr/p/piles-alcalines-lr6-aa-1-5v-power-energizer-7638900410846', 'name': 'Piles Alcalines LR6/AA 1,5V Power ENERGIZER', 'id': '7638900410846'}, {'rank': 29, '_input': 'pOWNEF', 'prodLink': 'https://www.carrefour.fr/p/piles-alcalines-lr3-aaa-1-5v-power-energizer-7638900410662', 'name': 'Piles Alcalines LR3/AAA 1,5V Power ENERGIZER', 'id': '7638900410662'}, {'rank': 30, '_input': 'pOWNEF', 'prodLink': 'https://www.carrefour.fr/p/piles-alcalines-lr20-d-1-5v-ultra-power-duracell-5000394002906', 'name': 'Piles Alcalines LR20/D 1,5V Ultra Power DURACELL', 'id': '5000394002906'}, {'rank': 31, '_input': 'pOWNEF', 'prodLink': 'https://www.carrefour.fr/p/piles-alcalines-lr3-aaa-1-5v-ultra-power-duracell-5000394002692', 'name': 'Piles Alcalines LR3/AAA 1,5V Ultra Power DURACELL', 'id': '5000394002692'}, {'rank': 32, '_input': 'pOWNEF', 'prodLink': 'https://www.carrefour.fr/p/piles-alcalines-lr6-aa-1-5v-ultra-power-duracell-5000394002562', 'name': 'Piles Alcalines LR6/AA 1,5V Ultra Power DURACELL', 'id': '5000394002562'}, {'rank': 33, '_input': 'pOWNEF', 'prodLink': 'https://www.carrefour.fr/p/piles-rechargeables-hr20-d-1-2v-2500mah-power-plus-energizer-7638900138757', 'name': 'Piles rechargeables HR20/D 1,2V 2500mAh Power Plus ENERGIZER', 'id': '7638900138757'}, {'rank': 34, '_input': 'pOWNEF', 'prodLink': 'https://www.carrefour.fr/p/piles-alcalines-lr6-aa-1-5v-ultra-power-duracell-5000394002548', 'name': 'Piles Alcalines LR6/AA 1,5V Ultra Power DURACELL', 'id': '5000394002548'}, {'rank': 35, '_input': 'pOWNEF', 'prodLink': 'https://www.carrefour.fr/p/piles-alcalines-lr6-aa-1-5v-plus-power-duracell-5000394017986', 'name': 'Piles Alcalines LR6/AA 1,5V Plus Power DURACELL', 'id': '5000394017986'}, {'rank': 36, '_input': 'pOWNEF', 'prodLink': 'https://www.carrefour.fr/p/piles-alcalines-lr3-aaa-1-5v-power-energizer-7638900410815', 'name': 'Piles Alcalines LR3/AAA 1,5V Power ENERGIZER', 'id': '7638900410815'}, {'rank': 37, '_input': 'pOWNEF', 'prodLink': 'https://www.carrefour.fr/p/piles-alcalines-lr6-aa-1-5v-power-energizer-7638900410686', 'name': 'Piles Alcalines LR6/AA 1,5V Power ENERGIZER', 'id': '7638900410686'}, {'rank': 38, '_input': 'pOWNEF', 'prodLink': 'https://www.carrefour.fr/p/superglue-power-epoxy-universel-loctite-3178041318372', 'name': 'Superglue power epoxy universel LOCTITE', 'id': '3178041318372'}, {'rank': 39, '_input': 'pOWNEF', 'prodLink': 'https://www.carrefour.fr/p/colle-power-glue-liquide-mini-tube-3-x-1-gr-uhu-4026700346558', 'name': 'Colle "Power glue" liquide mini tube 3 x 1 gr UHU', 'id': '4026700346558'}, {'rank': 40, '_input': 'pOWNEF', 'prodLink': 'https://www.carrefour.fr/p/brossettes-stages-power-oral-b-4210201154754', 'name': 'Brossettes Stages Power ORAL B', 'id': '4210201154754'}, {'rank': 41, '_input': 'pOWNEF', 'prodLink': 'https://www.carrefour.fr/p/piles-alcalines-lr3-aaa-1-5v-ultra-power-duracell-5000394002746', 'name': 'Piles Alcalines LR3/AAA 1,5V Ultra Power DURACELL', 'id': '5000394002746'}, {'rank': 42, '_input': 'pOWNEF', 'prodLink': 'https://www.carrefour.fr/p/piles-alcalines-lr6-aa-1-5v-ultra-power-duracell-5000394012738', 'name': 'Piles Alcalines LR6/AA 1,5V Ultra Power DURACELL', 'id': '5000394012738'}, {'rank': 43, '_input': 'pOWNEF', 'prodLink': 'https://www.carrefour.fr/p/piles-alcalines-lr6-aa-1-5v-plus-power-duracell-5000394019508', 'name': 'Piles Alcalines LR6/AA 1,5V Plus Power DURACELL', 'id': '5000394019508'}, {'rank': 44, '_input': 'pOWNEF', 'prodLink': 'https://www.carrefour.fr/p/piles-alcalines-lr3-aaa-1-5-v-ultra-power-duracell-5000394004962', 'name': 'Piles Alcalines LR3/AAA 1,5 V Ultra Power DURACELL', 'id': '5000394004962'}, {'rank': 45, '_input': 'pOWNEF', 'prodLink': 'https://www.carrefour.fr/p/piles-alcalines-lr6-aa-1-5-v-ultra-power-duracell-5000394004030', 'name': 'Piles Alcalines LR6/AA 1,5 V Ultra Power DURACELL', 'id': '5000394004030'}, {'rank': 46, '_input': 'pOWNEF', 'prodLink': 'https://www.carrefour.fr/p/piles-alcalines-lr03-aaa-1-5v-power-energizer-7638900289268', 'name': 'Piles Alcalines LR03/AAA 1,5V Power ENERGIZER', 'id': '7638900289268'}, {'rank': 47, '_input': 'pOWNEF', 'prodLink': 'https://www.carrefour.fr/p/piles-alcalines-lr6-aa-1-5v-power-energizer-7638900275230', 'name': 'Piles Alcalines LR6/AA 1,5V Power ENERGIZER', 'id': '7638900275230'}, {'rank': 48, '_input': 'pOWNEF', 'prodLink': 'https://www.carrefour.fr/p/pate-adhesive-patafix-pro-power-repositionnable-uhu-4026700381450', 'name': 'Pâte adhésive Patafix Pro Power repositionnable UHU', 'id': '4026700381450'}, {'rank': 49, '_input': 'pOWNEF', 'prodLink': 'https://www.carrefour.fr/p/piles-alcalines-lr6-aa-1-5v-power-energizer-7638900275025', 'name': 'Piles Alcalines LR6/AA 1,5V Power ENERGIZER', 'id': '7638900275025'}, {'rank': 50, '_input': 'pOWNEF', 'prodLink': 'https://www.carrefour.fr/p/colle-super-glue-3-power-flex-loctite-3178041304450', 'name': 'Colle Super Glue-3 Power Flex LOCTITE', 'id': '3178041304450'}, {'rank': 51, '_input': 'pOWNEF', 'prodLink': 'https://www.carrefour.fr/p/seche-cheveux-power-dry-babyliss-3030050153361', 'name': 'Sèche-cheveux power dry BABYLISS', 'id': '3030050153361'}, {'rank': 52, '_input': 'pOWNEF', 'prodLink': 'https://www.carrefour.fr/p/jus-de-fruits-vitamines-power-sans-sucres-ajoutes-tropicana-3502110010636', 'name': 'Jus de fruits Vitamines power sans sucres ajoutés TROPICANA', 'id': '3502110010636'}, {'rank': 53, '_input': 'pOWNEF', 'prodLink': 'https://www.carrefour.fr/p/nettoyant-power-jantes-triplewax-3301750026102', 'name': 'Nettoyant power jantes TRIPLEWAX', 'id': '3301750026102'}, {'rank': 54, '_input': 'pOWNEF', 'prodLink': 'https://www.carrefour.fr/p/colle-super-glue-3-power-flex-gel-loctite-3255460156607', 'name': 'Colle Super Glue-3 Power Flex gel LOCTITE', 'id': '3255460156607'}, {'rank': 55, '_input': 'pOWNEF', 'prodLink': 'https://www.carrefour.fr/p/aspirateur-sans-sac-compact-power-xxl-ro4823ea-rowenta-3221616000469', 'name': 'Aspirateur sans sac COMPACT POWER XXL RO4823EA ROWENTA', 'id': '3221616000469'}, {'rank': 56, '_input': 'pOWNEF', 'prodLink': 'https://www.carrefour.fr/p/barbecue-electrique-easygrill-power-tefal-3168430277779', 'name': 'Barbecue électrique Easygrill Power TEFAL', 'id': '3168430277779'}, {'rank': 57, '_input': 'pOWNEF', 'prodLink': 'https://www.carrefour.fr/p/huile-moteur-power-1-racing-2t-castrol-4008177080869', 'name': 'Huile moteur power 1 racing 2T CASTROL', 'id': '4008177080869'}, {'rank': 58, '_input': 'pOWNEF', 'prodLink': 'https://www.carrefour.fr/p/huile-moteur-power-1-scooter-4t-5w40-full-synthese-castrol-4008177106385', 'name': 'Huile moteur Power 1 Scooter 4T 5W40 - Full Synthèse CASTROL', 'id': '4008177106385'}, {'rank': 59, '_input': 'pOWNEF', 'prodLink': 'https://www.carrefour.fr/p/feutres-x12-de-coloriage-power-assortis-stabilo-3168070280122', 'name': 'Feutres X12 de coloriage power - assortis STABILO', 'id': '3168070280122'}, {'rank': 60, '_input': 'pOWNEF', 'prodLink': 'https://www.carrefour.fr/p/lessive-liquide-power-original-ariel-8001841615097', 'name': 'Lessive liquide power original ARIEL', 'id': '8001841615097'}, {'rank': 61, '_input': 'pOWNEF', 'prodLink': 'https://www.carrefour.fr/p/tablettes-lave-vaisselle-expert-extra-power-sun-8710447335178', 'name': 'Tablettes lave vaisselle Expert Extra Power SUN', 'id': '8710447335178'}, {'rank': 62, '_input': 'pOWNEF', 'prodLink': 'https://www.carrefour.fr/p/gel-wc-power-ajax-8718951253797', 'name': 'Gel WC power AJAX', 'id': '8718951253797'}, {'rank': 63, '_input': 'pOWNEF', 'prodLink': 'https://www.carrefour.fr/p/gel-maxx-power-schwarzkopf-3178040667730', 'name': 'Gel maXX Power SCHWARZKOPF', 'id': '3178040667730'}, {'rank': 64, '_input': 'pOWNEF', 'prodLink': 'https://www.carrefour.fr/p/gel-wc-agrumes-extra-power-canard-5000204919004', 'name': 'Gel WC agrumes Extra Power CANARD', 'id': '5000204919004'}, {'rank': 65, '_input': 'pOWNEF', 'prodLink': 'https://www.carrefour.fr/p/gel-wc-marine-extra-power-canard-5000204918915', 'name': 'Gel WC marine Extra Power CANARD', 'id': '5000204918915'}, {'rank': 66, '_input': 'pOWNEF', 'prodLink': 'https://www.carrefour.fr/p/gel-wc-pin-extra-power-canard-5000204918946', 'name': 'Gel WC Pin Extra Power CANARD', 'id': '5000204918946'}, {'rank': 67, '_input': 'pOWNEF', 'prodLink': 'https://www.carrefour.fr/p/nettoyant-menager-multi-surfaces-power-avec-javel-carrefour-3560071196110', 'name': 'Nettoyant ménager multi surfaces Power avec javel CARREFOUR', 'id': '3560071196110'}, {'rank': 68, '_input': 'pOWNEF', 'prodLink': 'https://www.carrefour.fr/p/lessive-liquide-power-alpine-ariel-8001841615905', 'name': 'Lessive liquide power alpine ARIEL', 'id': '8001841615905'}, {'rank': 69, '_input': 'pOWNEF', 'prodLink': 'https://www.carrefour.fr/p/lessive-liquide-power-original-ariel-8001841615042', 'name': 'Lessive liquide power original ARIEL', 'id': '8001841615042'}, {'rank': 70, '_input': 'pOWNEF', 'prodLink': 'https://www.carrefour.fr/p/soin-de-nuit-peaux-sensibles-q10-power-nivea-4005900561299', 'name': 'Soin de nuit peaux sensibles Q10 power NIVEA', 'id': '4005900561299'}, {'rank': 71, '_input': 'pOWNEF', 'prodLink': 'https://www.carrefour.fr/p/lessive-liquide-power-active-ariel-8001841670829', 'name': 'Lessive liquide power active ARIEL', 'id': '8001841670829'}, {'rank': 72, '_input': 'pOWNEF', 'prodLink': 'https://www.carrefour.fr/p/the-flower-power-bio-clipper-5021991941467', 'name': 'Thé Flower power Bio CLIPPER', 'id': '5021991941467'}, {'rank': 73, '_input': 'pOWNEF', 'prodLink': 'https://www.carrefour.fr/p/bloc-wc-power-tropic-anti-tartre-carrefour-3560071011529', 'name': 'Bloc WC Power Tropic anti-tartre CARREFOUR', 'id': '3560071011529'}, {'rank': 74, '_input': 'pOWNEF', 'prodLink': 'https://www.carrefour.fr/p/nettoyant-multi-usages-ultra-power-parfum-citrons-d-ete-mr-propre-8001841541259', 'name': "Nettoyant Multi-usages Ultra power parfum Citrons D'été MR PROPRE", 'id': '8001841541259'}, {'rank': 75, '_input': 'pOWNEF', 'prodLink': 'https://www.carrefour.fr/p/lessive-liquide-ultimate-power-3en1-skip-8710447380253', 'name': 'Lessive liquide ultimate power 3en1 SKIP', 'id': '8710447380253'}, {'rank': 76, '_input': 'pOWNEF', 'prodLink': 'https://www.carrefour.fr/p/kit-de-lavage-neo-power-elephant-3543534968592', 'name': 'Kit de lavage neo power ELEPHANT', 'id': '3543534968592'}, {'rank': 77, '_input': 'pOWNEF', 'prodLink': 'https://www.carrefour.fr/p/detachant-avant-lavage-clean-power-carrefour-3560071081010', 'name': 'Détachant avant lavage Clean power CARREFOUR', 'id': '3560071081010'}, {'rank': 78, '_input': 'pOWNEF', 'prodLink': 'https://www.carrefour.fr/p/lame-de-rasoir-fusion-proglide-power-gillette-7702018448333', 'name': 'Lame de rasoir fusion proglide power GILLETTE', 'id': '7702018448333'}, {'rank': 79, '_input': 'pOWNEF', 'prodLink': 'https://www.carrefour.fr/p/brioche-pogne-de-romans-les-delices-dauphinois-3760058620984', 'name': 'Brioche Pogne de Romans LES DELICES DAUPHINOIS', 'id': '3760058620984'}, {'rank': 80, '_input': 'pOWNEF', 'prodLink': 'https://www.carrefour.fr/p/lames-de-rasoir-proglide-power-fusion-gillette-7702018564231', 'name': 'Lames de rasoir proglide power fusion GILLETTE', 'id': '7702018564231'}, {'rank': 81, '_input': 'pOWNEF', 'prodLink': 'https://www.carrefour.fr/p/lames-de-rasoir-proglide-power-fusion-gillette-7702018564293', 'name': 'Lames de rasoir proglide power fusion GILLETTE', 'id': '7702018564293'}, {'rank': 82, '_input': 'pOWNEF', 'prodLink': 'https://www.carrefour.fr/p/lames-de-rasoir-proglide-power-fusion-gillette-7702018560677', 'name': 'Lames de rasoir proglide power fusion GILLETTE', 'id': '7702018560677'}, {'rank': 83, '_input': 'pOWNEF', 'prodLink': 'https://www.carrefour.fr/p/lames-de-rasoirs-fusion-5-power-gillette-7702018562442', 'name': 'Lames de rasoirs fusion 5 power GILLETTE', 'id': '7702018562442'}, {'rank': 84, '_input': 'pOWNEF', 'prodLink': 'https://www.carrefour.fr/p/liquide-vaisselle-power-clean-au-bicarbonate-carrefour-3560071241247', 'name': 'Liquide vaisselle Power Clean au bicarbonate CARREFOUR', 'id': '3560071241247'}, {'rank': 85, '_input': 'pOWNEF', 'prodLink': 'https://www.carrefour.fr/p/detachant-avant-lavage-fizz-super-power-k2r-3178041341462', 'name': 'Détachant avant lavage Fizz Super Power K2R', 'id': '3178041341462'}, {'rank': 86, '_input': 'pOWNEF', 'prodLink': 'https://www.carrefour.fr/p/poudre-detachante-oxy-power-a-l-oxygene-actif-carrefour-3560071081027', 'name': "Poudre détachante Oxy Power à l'oxygène actif CARREFOUR", 'id': '3560071081027'}, {'rank': 87, '_input': 'pOWNEF', 'prodLink': 'https://www.carrefour.fr/p/recharge-brossette-dentaire-enfant-electrique-stages-power-eb10-oral-b-4210201746249', 'name': 'Recharge brossette dentaire enfant électrique stages power eb10 ORAL-B', 'id': '4210201746249'}, {'rank': 88, '_input': 'pOWNEF', 'prodLink': 'https://www.carrefour.fr/p/tablette-lave-vaisselle-tout-en-1-expert-extra-power-sun-8710447358450', 'name': 'Tablette lave-vaisselle tout en 1 expert extra power SUN', 'id': '8710447358450'}, {'rank': 89, '_input': 'pOWNEF', 'prodLink': 'https://www.carrefour.fr/p/recharge-brossette-dentaire-electrique-power-disney-reine-des-neiges-oral-b-4210201154730', 'name': 'Recharge brossette dentaire électrique power Disney reine des neiges ORAL B', 'id': '4210201154730'}, {'rank': 90, '_input': 'pOWNEF', 'prodLink': 'https://www.carrefour.fr/p/colle-bois-power-pattex-3178041344210', 'name': 'Colle bois Power PATTEX', 'id': '3178041344210'}, {'rank': 91, '_input': 'pOWNEF', 'prodLink': 'https://www.carrefour.fr/p/colle-instantanee-power-pattex-3178041344593', 'name': 'Colle instantanée Power PATTEX', 'id': '3178041344593'}, {'rank': 92, '_input': 'pOWNEF', 'prodLink': 'https://www.carrefour.fr/p/mousse-expansive-power-rubson-3178040679962', 'name': 'Mousse expansive Power RUBSON', 'id': '3178040679962'}, {'rank': 93, '_input': 'pOWNEF', 'prodLink': 'https://www.carrefour.fr/p/figurine-articulee-power-rangers-megazord-rouge-habsro-5010993567041', 'name': 'Figurine articulée Power Rangers Megazord rouge HABSRO', 'id': '5010993567041'}, {'rank': 94, '_input': 'pOWNEF', 'prodLink': 'https://www.carrefour.fr/p/colle-multi-usages-power-pattex-3178041344005', 'name': 'Colle multi usages Power PATTEX', 'id': '3178041344005'}, {'rank': 95, '_input': 'pOWNEF', 'prodLink': 'https://www.carrefour.fr/p/seche-cheveux-power-pro-babyliss-3030050154825', 'name': 'Sèche-cheveux power pro BABYLISS', 'id': '3030050154825'}, {'rank': 96, '_input': 'pOWNEF', 'prodLink': 'https://www.carrefour.fr/p/barbecue-easygrill-power-2300-w-tefal-3168430277731', 'name': 'Barbecue EasyGrill Power 2300 w TEFAL', 'id': '3168430277731'}, {'rank': 97, '_input': 'pOWNEF', 'prodLink': 'https://www.carrefour.fr/p/colle-epoxy-power-1-minute-pattex-3178041344197', 'name': 'Colle Epoxy Power 1 minute PATTEX', 'id': '3178041344197'}, {'rank': 98, '_input': 'pOWNEF', 'prodLink': 'https://www.carrefour.fr/p/defroisseur-ixeo-power-qt2020c0-noir-cuivre-calor-3121040075227', 'name': 'Défroisseur IXEO Power - QT2020C0 - Noir/Cuivre CALOR', 'id': '3121040075227'}, {'rank': 99, '_input': 'pOWNEF', 'prodLink': 'https://www.carrefour.fr/p/radiateur-soufflant-compact-power-so2210f0-3121040055861', 'name': 'ROWENTA Radiateur Soufflant Compact Power SO2210F0', 'id': '3121040055861'}, {'rank': 100, '_input': 'pOWNEF', 'prodLink': 'https://www.carrefour.fr/p/aspirateur-avec-sac-power-xxl-bleu-gris-rowenta-3221616000483', 'name': 'Aspirateur avec sac power XXL bleu/gris ROWENTA', 'id': '3221616000483'}, {'rank': 101, '_input': 'pOWNEF', 'prodLink': 'https://www.carrefour.fr/p/aspirateur-avec-sac-compact-power-ro3923ea-rouge-rowenta-3221614002267', 'name': 'Aspirateur avec sac Compact Power - RO3923EA - Rouge ROWENTA', 'id': '3221614002267'}, {'rank': 1, '_input': 'laptop', 'prodLink': 'https://www.carrefour.fr/p/sacoche-pour-ordinateur-portable-rolling-laptop-case-16-5051794004984', 'name': 'TARGUS Sacoche pour ordinateur portable Rolling Laptop Case - 16"', 'id': '5051794004984'}]
+everything went fine, closing the browser
+allPerformedSuccess [True]
+elapsed time is 193.26969100000002
